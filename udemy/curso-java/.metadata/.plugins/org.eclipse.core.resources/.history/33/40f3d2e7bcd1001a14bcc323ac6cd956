@@ -1,0 +1,18 @@
+package lambdas;
+
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+	public static void main(String[] args) {
+		Produto prod = new Produto("Samsung A70", 2700.00, 0.05);
+		Function<Produto, Double> precoFinal;
+		UnaryOperator<Double> impostoMunicipal;
+		UnaryOperator<Double> frete;
+		UnaryOperator<Double> arredonda;
+		Function<Double, String> formata;
+		
+		String preco = precoFinal.andThen(impostoMunicipal).andThen(frete).andThen(arredonda).andThen(formata);
+		
+	}
+}

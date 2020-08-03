@@ -1,0 +1,12 @@
+package lambdas;
+
+import java.util.function.Consumer;
+
+public class Consumidor {
+	public static void main(String[] args) {
+		Consumer<Produto> imprimir = p -> System.out.println("Nome " + p.nome + " " + p.preco + " " + p.desconto);
+		
+		Produto pp = new Produto("Jornal", 100.50, 0.10);
+		imprimir.accept(pp);
+	}
+}

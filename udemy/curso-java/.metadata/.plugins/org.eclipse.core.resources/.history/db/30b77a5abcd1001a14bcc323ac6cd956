@@ -1,0 +1,10 @@
+package lambdas;
+
+import java.util.function.Function;
+
+public class Desafio {
+	public static void main(String[] args) {
+		Produto prod = new Produto("Samsung A70", 2700.00, 0.05);
+		Function<Produto, Double>
+	}
+}

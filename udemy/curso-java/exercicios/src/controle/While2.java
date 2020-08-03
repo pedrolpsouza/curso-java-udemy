@@ -1,0 +1,16 @@
+package controle;
+
+import java.util.Scanner;
+
+public class While2 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String n = "";
+		
+		while(!n.equalsIgnoreCase("sair")) {
+			System.out.print("Digite o nome : ");
+			n = entrada.next();
+		}
+		entrada.close();
+	}
+}

@@ -1,0 +1,24 @@
+package poo.desafiocarro;
+
+public class Ferrari extends Carro implements Esportivo {
+	
+	Ferrari() {
+		super(350);
+		delta = 15;
+	}
+
+	int acelerar() {
+		return velocidadeAtual += delta;
+	}
+	@Override
+	public void ligarTurbo() {
+		delta = 35;
+		
+	}
+	@Override
+	public void desligarTurbo() {
+		delta = 15;
+		
+	}
+
+}

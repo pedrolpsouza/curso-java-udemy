@@ -1,0 +1,34 @@
+package poo.desafiocarro;
+
+public class Ferrari extends Carro implements Esportivo, Luxo{
+	
+	Ferrari() {
+		super(350);
+		setDelta(15);
+	}
+
+	int acelerar() {
+		return velocidadeAtual += getDelta();
+	}
+	@Override
+	public void ligarTurbo() {
+		setDelta(35);
+		
+	}
+	@Override
+	public void desligarTurbo() {
+		setDelta(35);
+		
+	}
+	@Override
+	public void ligarAR() {
+		
+		
+	}
+	@Override
+	public void desligarAr() {
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package lambdas;
+
+public class CalcTeste {
+	public static void main(String[] args) {
+		Soma a = new Soma();
+		Multiplicar b = new Multiplicar();
+		System.out.println(a.executar(1,2));
+		System.out.println(b.executar(3,3));
+	}
+}

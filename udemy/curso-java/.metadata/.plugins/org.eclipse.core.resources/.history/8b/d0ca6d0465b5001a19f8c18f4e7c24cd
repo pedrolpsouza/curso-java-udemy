@@ -1,0 +1,23 @@
+package classe;
+
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto();
+		var p2 = new Produto();
+		p1.nome = "Notebook";
+		p1.preco = 2500.00;
+		p1.desconto = 25;
+
+		p2.nome = "SmartPhone";
+		p2.preco = 3650.25;
+		p2.desconto = 0.10;
+		System.out.println("Desconto "  + p1.preco * p1.desconto);
+		double precoFinal2 = p1.preco * (1- p1.desconto);
+		double precoFinal = ((p1.preco - (p1.preco* p1.desconto / 100)));
+		System.out.println(p1.nome + "\n" + " Valor Final = "  + precoFinal);
+		p1.desconto = .25;
+		System.out.println(p1.nome + "\n" + " Valor Final = "  + precoFinal2);
+	}
+}

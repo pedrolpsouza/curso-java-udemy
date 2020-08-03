@@ -1,0 +1,10 @@
+package classe;
+
+public class DataTeste {
+	public static void main(String[] args) {
+		Data d1 = new Data();
+		d1.dia = 07;
+		d1.mes = 12;
+		d1.ano = 1990;
+	}
+}

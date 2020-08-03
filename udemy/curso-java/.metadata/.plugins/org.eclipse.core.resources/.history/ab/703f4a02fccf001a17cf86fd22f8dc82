@@ -1,0 +1,8 @@
+package poo.abstrata;
+
+public class TesteAbstrato {
+	public static void main(String[] args) {
+		Animal a = new Cachorro();
+		a.mover();
+	}
+}

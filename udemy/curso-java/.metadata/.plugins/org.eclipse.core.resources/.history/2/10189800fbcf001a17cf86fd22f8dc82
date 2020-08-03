@@ -1,0 +1,5 @@
+package poo.abstrata;
+
+public abstract class Mamifero extends Animal {
+
+}

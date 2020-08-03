@@ -1,0 +1,5 @@
+package poo.abstrata;
+
+public abstract class Animal {
+	boolean respirar = true;
+}

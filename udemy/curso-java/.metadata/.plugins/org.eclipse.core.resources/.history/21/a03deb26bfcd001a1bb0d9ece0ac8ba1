@@ -1,0 +1,33 @@
+package poo.desafiocarro;
+
+public class Carro {
+	int velocidadeAtual = 0;
+	final int VELOCIDADE_MAXIMA;
+	int delta = 5;
+
+	Carro(int velocidadeMaxima) {
+		this.VELOCIDADE_MAXIMA = velocidadeMaxima;
+	}
+
+	int acelerar() {
+		if(velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+			velocidadeAtual = VELOCIDADE_MAXIMA;
+		} else {
+			velocidadeAtual += delta;
+		}
+		return velocidadeAtual;
+
+	}
+
+	int frear() {
+
+		if (velocidadeAtual >= delta) {
+			velocidadeAtual -= delta;
+
+		} else {
+			velocidadeAtual = 0;
+		}
+		return velocidadeAtual;
+
+	}
+}

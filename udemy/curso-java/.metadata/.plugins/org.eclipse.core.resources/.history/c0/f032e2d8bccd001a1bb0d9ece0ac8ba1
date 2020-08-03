@@ -1,0 +1,13 @@
+package poo.desafiocarro;
+
+public class Ferrari extends Carro implements Esportivo {
+	
+	Ferrari() {
+		super(350);
+	}
+
+	int acelerar() {
+		return velocidadeAtual += 15;
+	}
+
+}

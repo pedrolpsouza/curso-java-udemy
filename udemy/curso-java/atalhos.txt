@@ -1,0 +1,8 @@
+ Main CTRL + Espaço
+syso CTRL + Espaço
+compilar CTRL + Shift + F11
+renomear packeges ALT+SHIFT+R
+ALT + SETAS PRA CIMA E PRA BAIXO PARA MOVER A LINHA
+CTRL+ SHIFT + O - organiza os imports
+CTRL+ SHIFT  + F - identar
+CTRL + SHIFT + L + L - mostra os atalhos

@@ -1,0 +1,9 @@
+package poo.abstrata;
+
+public class Cachorro extends Animal, Mamifero{
+	
+	
+	public String mamar() {
+		return "leite";
+	}
+}

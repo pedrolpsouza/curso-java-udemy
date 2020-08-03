@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;controle.SwitchSemBreak&apos; to &apos;Switch&apos;&#x0D;&#x0A;- Original project: &apos;exercicios&apos;&#x0D;&#x0A;- Original element: &apos;controle.SwitchSemBreak&apos;&#x0D;&#x0A;- Renamed element: &apos;controle.Switch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SwitchSemBreak&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;controle{SwitchSemBreak.java[SwitchSemBreak" matchStrategy="1" name="Switch" qualified="false" references="true" similarDeclarations="false" stamp="1592311928060" textual="false" version="1.0"/>
+</session>

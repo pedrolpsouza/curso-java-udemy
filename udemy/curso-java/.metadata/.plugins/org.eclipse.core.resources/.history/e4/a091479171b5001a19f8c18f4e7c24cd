@@ -1,0 +1,12 @@
+package classe;
+
+public class Produto {
+	String nome;
+	double preco;
+	double desconto;
+	int soma(int a, int b) {
+		
+		int resultado = a + b;
+		return resultado;
+	}
+}

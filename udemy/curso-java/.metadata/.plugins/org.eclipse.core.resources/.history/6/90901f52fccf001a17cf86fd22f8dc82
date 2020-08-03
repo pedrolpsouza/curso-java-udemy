@@ -1,0 +1,13 @@
+package poo.abstrata;
+
+public class Cachorro extends Animal {
+	@Override
+	public String mover() {
+		
+		return "usando as patas";
+	}
+	
+	public String mamar() {
+		return "leite";
+	}
+}

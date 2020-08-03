@@ -1,0 +1,5 @@
+package lambdas;
+
+public class CalcTeste2 {
+	Multiplicar b = new Multiplicar();
+}

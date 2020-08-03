@@ -1,0 +1,6 @@
+package classe;
+
+public class Data {
+	Data d1 = new Data();
+	
+}

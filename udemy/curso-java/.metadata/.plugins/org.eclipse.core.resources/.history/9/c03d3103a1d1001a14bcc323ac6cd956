@@ -1,0 +1,19 @@
+package lambdas;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Consumer;
+
+public class Consumidor {
+	public static void main(String[] args) {
+		Consumer<Produto> imprimir = p -> System.out.println("Nome " + p.nome 
+				+"\n Valor: " + p.preco + "\nDesconto: " + p.desconto);
+		
+		Produto pp = new Produto("Jornal", 100.50, 0.10);
+		Produto pp1 = new Produto("Celular", 3565.50, 0.15);
+		Produto pp2 = new Produto("Gabinete", 350.50, 0.05);
+		Produto pp3 = new Produto("Mouse", 88.20, 0.12);
+		imprimir.accept(pp);
+		List<Produto> produtos = Arrays.asList(pp, pp1, pp2, pp3);
+	}
+}

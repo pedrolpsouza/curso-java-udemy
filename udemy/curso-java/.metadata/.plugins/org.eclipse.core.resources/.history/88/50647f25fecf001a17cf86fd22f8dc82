@@ -1,0 +1,6 @@
+package poo.desafiocarro;
+
+public interface Luxo {
+	void ligarAR();
+	void desligarAr();
+}

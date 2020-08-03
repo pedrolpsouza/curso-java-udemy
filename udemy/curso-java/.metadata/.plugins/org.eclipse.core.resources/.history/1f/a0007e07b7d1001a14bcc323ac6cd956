@@ -1,0 +1,11 @@
+package lambdas;
+
+import java.util.function.UnaryOperator;
+
+public class OperadorUnario {
+	public static void main(String[] args) {
+		UnaryOperator<Integer> mais2 = n -> n + 2;
+		UnaryOperator<Integer> x2 = n -> n * 2;
+		UnaryOperator<Integer> quadrado = n -> n*n;
+	}
+}

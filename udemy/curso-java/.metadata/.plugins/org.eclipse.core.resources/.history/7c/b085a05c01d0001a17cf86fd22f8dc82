@@ -1,0 +1,5 @@
+package lambdas;
+
+public class CalcTeste2 {
+	Calculo soma = (a, b);
+}
